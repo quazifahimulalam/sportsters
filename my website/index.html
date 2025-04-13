@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sportsters sports gear e-store (one stop for all sports gear)</title>
+    <link rel="shortcut icon" href="Untitled.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+
+<nav class="bg-white border-gray-200 dark:bg-gray-400">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="Untitled.png" class="h-8" alt="Flowbite Logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap text-black">Sportsters</span>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-400 dark:focus:ring-gray-400" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-grey-400 dark:bg-gray-400 :bg-gray-400 dark:border-gray-700">
+          <li>
+            <a href="#" class="block py-2 px-3 text-white bg-black rounded-sm md:bg-transparent md:text-black md:p-0 font-bold " aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black font-bold md:p-0  ">About</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black font-bold md:p-0 ">Services</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black font-bold md:p-0 ">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black font-bold md:p-0 ">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="flex flex-col-reverse lg:flex-row justify-center items-center py-10 gap-8">
+    <div class="flex flex-col items-center justify-center gap-6">
+      <h3 class="text-2xl lg:text-3xl font-medium uppercase">Sportsters</h3>
+      <h1 class="text-4xl md:text-6xl font-extrabold font-serif tracking-wider leading-tight md:leading-[90px] max-w-2xl text-center lg:text-left mb-5">Sports seasonal discount is coming to an end . Shop while you can to get <span class="text-[#275ae5]">20% off</span></h1>
+      <p class="text-lg font-medium hover:cursor-pointer">Use Promo Code <span class="px-5 py-3 bg-[#275ae5] text-white rounded-lg ml-5" id="discount-coupon">DISCOUNT20</span></p>
+    </div>
+    <div>
+      <img src="Untitled.png" alt="">
+    </div>
+  </div>
+  
+  <main class="bg-[#F8F8F8] flex flex-col  justify-center items-center  gap-2 lg:gap-12 py-12 lg:py-24">
+    <h3 class="text-3xl lg:text-4xl font-semibold text-center lg:text-left mb- font-serif ">Our collection of products</h3>
+    
+    <!-- Product Part  --> 
+    <div class="flex flex-col gap-14 lg:gap-20">
+      <!--  -->
+      <div>
+        <div class="flex flex-col lg:flex-row gap-10 lg:gap-6">
+          <!-- necklace Card 1 -->
+          <div class="card w-80 bg-base-100 shadow-xl flex flex-col items-center p-6">
+           <div class="w-full h-52 bg-[#1111110D] rounded-lg flex flex-col items-center justify-center p-8"> 
+            <img src="ball1.jpg" class="w-full h-52 object-cover" alt=""/>
+          </div>
+            <div class="card-body flex flex-col items-center gap-4">
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+              </div>
+              <h2 class="card-title">True-Born football</h2>
+              <p class="text-gray-400 text-lg"><span>390.00</span> TK</p>
+              <button onclick="addItem('Bead Necklace', 390.00)" class="bg-red-500 text-white px-3 py-2.5 text-lg hover:bg-red-600 rounded font-semibold">Buy Now</button>
+            </div>
+          </div>
+          <!-- necklace Card 2 -->
+          <div class="card w-80 bg-base-100 shadow-xl flex flex-col items-center p-6">
+            <div class="w-full h-52 bg-[#1111110D] rounded-lg flex flex-col items-center justify-center p-8"> 
+             <img src="ball2.jpg" class="w-full h-52 object-cover" alt=""/>
+           </div>
+             <div class="card-body flex flex-col items-center gap-4">
+               <div class="rating">
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+               </div>
+               <h2 class="card-title" >Rhino soccer ball</h2>
+               <p class="text-gray-400 text-lg"><span>890.00</span> TK</p>
+               <button  onclick="addItem('Homemade Necklace', 890.00)" class="bg-red-500 text-white px-3 py-2.5 text-lg hover:bg-red-600 rounded font-semibold">Buy Now</button>
+             </div>
+           </div>
+           <!-- Necklace Card 3 -->
+           <div class="card w-80 bg-base-100 shadow-xl flex flex-col items-center p-6">
+            <div class="w-full h-52 bg-[#1111110D] rounded-lg flex flex-col items-center justify-center p-8"> 
+             <img src="ball3.jpg" alt=""/>
+           </div>
+             <div class="card-body flex flex-col items-center gap-4">
+               <div class="rating">
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+               </div>
+               <h2 class="card-title">jumbo-plane tennis ball</h2>
+               <p class="text-gray-400 text-lg"><span>60.00</span> TK</p>
+               <button onclick="addItem('Gold Necklace', 6000.00)" class="bg-red-500 text-white px-3 py-2.5 text-lg hover:bg-red-600 rounded font-semibold">Buy Now</button>
+             </div>
+           </div>
+        </div>
+      </div>
+      <!-- Earrings-->
+      <div>
+        
+        <div class="flex flex-col lg:flex-row gap-10 lg:gap-6">
+          <!-- Earrings Card 1 -->
+          <div class="card w-80 bg-base-100 shadow-xl flex flex-col items-center p-6">
+            <div class="w-full h-52 bg-[#1111110D] rounded-lg flex flex-col items-center justify-center p-8"> 
+            <img src="equip one.jpg" class="w-full h-52 object-cover" alt=""/>
+          </div>
+            <div class="card-body flex flex-col items-center gap-4">
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+              </div>
+              <h2 class="card-title">table tennnis bat and ball</h2>
+              <p class="text-gray-400 text-lg"><span>490.00</span> TK</p>
+              <button onclick="addItem('Long Earrings', 490.00)" class="bg-red-500 text-white px-3 py-2.5 text-lg hover:bg-red-600 rounded font-semibold">Buy Now</button>
+            </div>
+          </div>
+          <!--  Earrings Card 2 -->
+          <div class="card w-80 bg-base-100 shadow-xl flex flex-col items-center p-6">
+            <div class="w-full h-52 bg-[#1111110D] rounded-lg flex flex-col items-center justify-center p-8"> 
+              <img src="equip 2.jpg" alt=""/>
+            </div>
+              <div class="card-body flex flex-col items-center gap-4">
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                </div>
+                <h2 class="card-title" ></h2>
+                <p class="text-gray-400 text-lg"><span>1200.00</span> TK</p>
+                <button onclick="addItem('Cute Earrings', 1200.00)" class="bg-red-500 text-white px-3 py-2.5 text-lg hover:bg-red-600 rounded font-semibold">Buy Now</button>
+              </div>
+            </div>
+            <!--  Earrings Card 3 -->
+            <div class="card w-80 bg-base-100 shadow-xl flex flex-col items-center p-6">
+            <div class="w-full h-52 bg-[#1111110D] rounded-lg flex flex-col items-center justify-center p-8"> 
+              <img src="equip 3.jpg" alt=""/>
+            </div>
+              <div class="card-body flex flex-col items-center gap-4">
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                </div>
+                <h2 class="card-title" >Food Earrings</h2>
+                <p class="text-gray-400 text-lg"><span>2000.00</span> TK</p>
+                <button onclick="addItem('Food Earrings', 2000.00)" class="bg-red-500 text-white px-3 py-2.5 text-lg hover:bg-red-600 rounded font-semibold">Buy Now</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- Clip -->
+      <div>
+        
+        <div class="flex flex-col lg:flex-row gap-10 lg:gap-8">
+          <!-- Clip Card 1 -->
+          <div class="card w-80 bg-base-100 shadow-xl flex flex-col items-center p-6" >
+            <div class="w-full h-52 bg-[#1111110D] rounded-lg flex flex-col items-center justify-center p-8"> 
+            <img src="clip.jpg" alt=""/>
+          </div>
+            <div class="card-body flex flex-col items-center gap-4">
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+              </div>
+              <h2 class="card-title">Kids Clip</h2>
+              <p class="text-gray-400 text-lg"><span>185.00</span> TK</p>
+              <button onclick="addItem('Kids Clip', 185.00)" class="bg-red-500 text-white px-3 py-2.5 text-lg hover:bg-red-600 rounded font-semibold">Buy Now</button>
+            </div>
+          </div>
+          <!-- Clip Card 2 -->
+          <div class="card w-80 bg-base-100 shadow-xl flex flex-col items-center p-6">
+            <div class="w-full h-52 bg-[#1111110D] rounded-lg flex flex-col items-center justify-center p-8"> 
+              <img src="crystal.jpg" alt=""/>
+            </div>
+              <div class="card-body flex flex-col items-center gap-4">
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                </div>
+                <h2 class="card-title">Crystal Clip</h2>
+                <p class="text-gray-400 text-lg"><span>299.00</span> TK</p>
+                <button onclick="addItem('Crystal Clip', 290.00)" class="bg-red-500 text-white px-3 py-2.5 text-lg hover:bg-red-600 rounded font-semibold">Buy Now</button>
+              </div>
+            </div>
+            <!-- Clip Card 3 -->
+            <div class="card w-80 bg-base-100 shadow-xl flex flex-col items-center p-6">
+            <div class="w-full h-52 bg-[#1111110D] rounded-lg flex flex-col items-center justify-center p-8"> 
+              <img src="pearl.jpg" alt=""/>
+            </div>
+              <div class="card-body flex flex-col items-center gap-4">
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                </div>
+                <h2 class="card-title">Pearl Clip</h2>
+                <p class="text-gray-400 text-lg"><span>339.00</span> TK</p>
+                <button onclick="addItem('Pearl Clip', 339.00)" class="bg-red-500 text-white px-3 py-2.5 text-lg hover:bg-red-600 rounded font-semibold">Buy Now</button>
+              </div>
+            </div>
+        </div>
+      </div>                
+    </div>
+
+  
+<script src="script.js"></script>    
+</body>
+</html>
